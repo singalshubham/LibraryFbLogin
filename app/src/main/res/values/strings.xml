@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FacebookLoginSample</string>
+    <string name="login_with_facebook">login with facebook</string>
+    <string name="logout_from_facebook">logout from facebook</string>
+</resources>

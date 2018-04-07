@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranosys.facebookloginsample.SampleActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:text="@string/login_with_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:textAllCaps="false"
+        android:onClick="facebookLogin"
+        />
+
+    <Button
+        android:text="@string/logout_from_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:textAllCaps="false"
+        android:onClick="facebookLogout"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
