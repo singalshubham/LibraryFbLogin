@@ -41,7 +41,7 @@ dependencies {
 #### Step 1
  - Get a facebook app id from developer account 
  - and use this app id in passing in intent as shown in sample below 
- -And change in your app menifest according to this app module menifest 
+ - change in your app menifest according to this app module menifest 
 
 #### Step 2
 
